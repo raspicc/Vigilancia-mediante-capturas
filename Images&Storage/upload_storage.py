@@ -1,12 +1,8 @@
-# saber si una imagen nueva a sido colocada en la carpeta
-# saber si el peso de la iamgen es distinto de 0KB
-# saber si el nombre de dicha imagen coincide con la fecha actual
 import time
 import os.path
 from datetime import datetime
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-import os
 from firebase_admin import credentials, storage, initialize_app
 
 # Ruta al archivo de credenciales del servicio de Firebase
@@ -26,19 +22,24 @@ def subir_imagen(nombre_archivo, ruta_local):
 
 
 class NuevoArchivoHandler(FileSystemEventHandler):
+    def __init__(self):
+        self.last_uploaded = None
+
     def on_created(self, event):
         if not event.is_directory and event.src_path.lower().endswith('.jpg'):
             archivo = os.path.basename(event.src_path)
             peso = os.path.getsize(event.src_path)
-            
+
             if peso != 0:
                 fecha_actual = datetime.now().strftime("%Y-%m-%d")
                 if fecha_actual in archivo:
-                    print(f"Se ha creado un nuevo archivo coincidente con la fecha actual: {archivo}")
-                    print(f"Peso del archivo: {peso} bytes")
-                    
-                    ruta_local = event.src_path
-                    subir_imagen(archivo, ruta_local)
+                    if archivo != self.last_uploaded:
+                        print(f"Se ha creado un nuevo archivo coincidente con la fecha actual: {archivo}")
+                        print(f"Peso del archivo: {peso} bytes")
+
+                        ruta_local = event.src_path
+                        subir_imagen(archivo, ruta_local)
+                        self.last_uploaded = archivo
 
 
 carpeta = 'C:/Users/Luis Chanquetti/Desktop/Security/ImagesSecurity'
@@ -57,4 +58,3 @@ observer.join()
 
 
 
-# subir dicha al storage 
