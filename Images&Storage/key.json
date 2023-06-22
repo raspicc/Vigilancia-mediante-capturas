@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "videovigilancia-online",
+  "private_key_id": "e66edd8aa67709048e172c07b774e7aa6c0add27",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCorCyH9n1mFXXX\nqDllCquAJ3IUB3wTCYTOswcX11PCwHoJbmasQ5pGUyOHmND4XNv0kG/3CI6Tsyqb\nLiTMYrlvznRMIkbnCERgYLO9Y+H8pPo92HCiFDmneGEnzp832y3ttJ4P5bt5zJ/n\nIPbwnF9yoUuWDq9YpOYczVryfo6EPIhTGgqRoY0pcBU5gWOxmQME/EwPzx7HfGzt\nN3uU7S8YT9MgiU4VfaeTdLnsxaejyoX6L5mFDLpzH3Toc1gbNSQ0Y5dtFrA5kBm8\neUKZXev9mjs5hIPoSAHrtIekmlKLxO5IoBaVSRfbVlQYtn/x3YcAk5JePdUOJ0Bt\nQ+n5eLlNAgMBAAECggEACqjq8uLMlQgz14py/3mXp3SWvJZRLJYplbNHIPtuTedt\nLwMSVmkQAHQeUY0CXpfmchkzbPOA/eumUdgDjQPg6qSBFr4Efh24eIt+qzBQpsS5\nvfExA8VEdDA4RP7wHWRq4tQgjdT72Vw/GiksAhPX4mji29vCECzyZWKYZgKX44Ui\nPNm+tjU0fAJYPpsFsmjFcOaK+GCaa0n11xpCZ4R6294CAEQ3laWoh2SHtix2N2Y+\nvI2C1qyEWhKkXI5gub1G7mxT6RDL85G9BHIFQh4qE2TmpzgCBQOzl2yR9eHlWzOn\n8w7E/J/TmJ0Y1H672tDN2bq0EWITB+5lu0c28JFYLwKBgQDR3BrxNEyV6X+na/IQ\nvGegqegleYjadHQjqzEgJ12TI8nm9i0hQSo/zY0M3kDKzg+4ATpBxe7h6/A593Kq\ng1IDdZ4WlgBaRkVyNXhE8jx3BnOKeoVtr6LyEDr2zuh76bu6mAEsuoxaeF5GnJEp\nteL68hNJA47pvEK9MkuJvtKVUwKBgQDNwduYu+TASfPQDOrlI4p1lpH9go2V8vAm\n/dgSkdbfITViUNpq6fwkQ84UtQJ+tZTYiJs4+aMvfKWD0mSIYJ68l8usfmkLavDf\nVDc0bVg6TkA5gqQRzPNbNu5UNCLu2HJ5C9tj5tJxBqqz9cqEyyXilhhWXq6F1Idw\nku/qT+oC3wKBgHfzGccyQHATVW6JaYOdXJHda5432DwdAeD9UYfyWC7o7tc/cE4o\npBBx2aQ4SMpie2ON+BFuI/sn01gekoDZrH/js2dvd2Yh8kG0RDkMR/k0S8gj/a3T\nDQzUsA8v9nwU/cNKbKl3Ow/e6uvrQ6GWn9UVlmZOTVpVy8O+QqTJ2C2XAoGBAMzi\na/Ozrb4YJbMXGdPfxyD+NRNWK/yTs7Vv8ffTxz3aiJkE3+m0Y0INTqlp8TkRQU05\nAjACzQ8dNIeGOltestIi6UozehBHheEsr+gBteghQWzC/PNIvU8n7LxmSh7B44NL\nXkQldYnc1KBscSQ4UdpGEaf3khtrnQ5pEoOk3eXLAoGANh3bI6upfZbOAyebbg52\nmjOpxYKMyUHUofGrJg57/Zg4iHWc8RW27WXYBnRnUiIv8z8ji/32fw73mplusdkQ\nNZqnrBF3l/DVrNRrtBnHescqia1ILStBXxt3epdVipRfVPhPsg7jf0068Ms+7sbs\nDo7BB2icVjL8Nzk5Rj7NYxQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ph3g5@videovigilancia-online.iam.gserviceaccount.com",
+  "client_id": "114572939634601089415",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ph3g5%40videovigilancia-online.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
